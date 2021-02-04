@@ -1,0 +1,179 @@
+Global Styles
+:root {
+  --primary-color: #17a2b8;
+  --dark-color: #343a40;
+  --light-color: #f4f4f4;
+  --danger-color: #dc3545;
+  --success-color: #28a745;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Utilities */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+}
+
+/* Text Styles*/
+.x-large {
+  font-size: 4rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.large {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.lead {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-dark {
+  color: var(--dark-color);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-dark {
+  color: var(--dark-color);
+}
+
+.large {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.lead {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Form */
+
+.form .form-group {
+  margin: 1.2rem 0;
+}
+
+.form .form-text {
+  display: block;
+  margin-top: 0.3rem;
+  color: #888;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="password"],
+.form input[type="date"],
+.form select,
+.form textarea {
+  display: block;
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+}
+
+.form input[type="submit"],
+button {
+  font: inherit;
+}
+
+
+/* Buttons */
+.btn-primary,
+  .bg-primary,
+  .badge-primary,
+  .alert-primary {
+    background: var(--primary-color);
+    color: #fff;
+  }
+  
+  .btn-light,
+  .bg-light,
+  .badge-light,
+  .alert-light {
+    background: var(--light-color);
+    color: #333;
+  }
+  
+  .btn-dark,
+  .bg-dark,
+  .badge-dark,
+  .alert-dark {
+    background: var(--dark-color);
+    color: #fff;
+  }
+  
+  .btn-danger,
+  .bg-danger,
+  .badge-danger,
+  .alert-danger {
+    background: var(--danger-color);
+    color: #fff;
+  }
+  
+  .btn-success,
+  .bg-success,
+  .badge-success,
+  .alert-success {
+    background: var(--success-color);
+    color: #fff;
+  }
+  
+  .btn-white,
+  .bg-white,
+  .badge-white,
+  .alert-white {
+    background: #fff;
+    color: #333;
+    border: #ccc solid 1px;
+  }
+  
+  .btn:hover {
+    opacity: 0.8;
+  }
+  
+  .bg-light,
+  .badge-light {
+    border: #ccc solid 1px;
+  }
+  
+  .round-img {
+    border-radius: 50%;
+  }

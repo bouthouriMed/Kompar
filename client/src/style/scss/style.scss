@@ -1,0 +1,65 @@
+$font-stack: "Raleway", sans-serif;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $font-stack;
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+.landing {
+  background: url("../../img//landing.jpg") no-repeat center center/cover;
+  height: 100vh;
+
+  padding: 5% ;
+
+  h1 {
+    color: blueviolet;
+    font-size: 6rem;
+    font-weight: bolder;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  .buttons {
+    margin: 20px 0;
+    border-radius: 5px;
+  }
+}
+
+.login-page {
+  background: url("../../img//road.jpeg");
+  opacity: 0.95;
+  height: 100vh;
+  padding: 5%;
+
+  .container {
+    background-color: rgba(245, 245, 245, 0.603);
+    width: 100%;
+    padding: 5%;
+    border: 1px solid white;
+    border-radius: 15px;
+    
+  }
+  h5 {
+    margin-top: 7%;
+  }
+}
+
+input {
+  color: rgb(0, 0, 0) !important ;
+}
